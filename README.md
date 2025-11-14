@@ -121,6 +121,7 @@ If there are too many Gaussians in the scene, volume loss can be deprecated
 
 <img width="1917" height="968" alt="QQ20251112-182812" src="https://github.com/user-attachments/assets/322bfa0b-daaf-40fd-a260-abe13d165371" />
 run:
+
 ```
 python webui.py  -s data/figurines/ -m data/figurines/output --include_feature --ckpt_name chkpnt_space_0.6.pth
 ```

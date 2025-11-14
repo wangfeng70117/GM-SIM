@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cuda_rasterizer",
+    "\\diff_gaussian_rasterization"
+  ],
+  "SelectedNode": "\\cuda_rasterizer\\backward.cu",
+  "PreviewInSolutionExplorer": false
+}

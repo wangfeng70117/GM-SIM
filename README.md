@@ -119,7 +119,8 @@ If there are too many Gaussians in the scene, volume loss can be deprecated
 
 - **Step 5: Use the webui to determine the segmentation parameters**
 
-<img width="1917" height="968" alt="QQ20251112-182812" src="https://github.com/user-attachments/assets/932a336e-87b2-4c26-9966-0b9b124dfa76" />
+<img width="1917" height="968" alt="QQ20251112-182812" src="https://github.com/user-attachments/assets/322bfa0b-daaf-40fd-a260-abe13d165371" />
+
 
 ### Basic Controls
 

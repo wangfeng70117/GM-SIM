@@ -120,7 +120,10 @@ If there are too many Gaussians in the scene, volume loss can be deprecated
 - **Step 5: Use the webui to determine the segmentation parameters**
 
 <img width="1917" height="968" alt="QQ20251112-182812" src="https://github.com/user-attachments/assets/322bfa0b-daaf-40fd-a260-abe13d165371" />
-
+run:
+```
+python webui.py  -s data/figurines/ -m data/figurines/output --include_feature --ckpt_name chkpnt_space_0.6.pth
+```
 
 ### Basic Controls
 
@@ -203,3 +206,14 @@ If there are too many Gaussians in the scene, volume loss can be deprecated
   Save the mask of the segmented target object.
 ---
 
+
+- **Step 5: Simulation**
+You can run the simulation using the dataset we provide:
+```
+python gs_sim_figurines.py  -s data/figurines/ -m data/figurines/output --include_feature --ckpt_name chkpnt_moved.pth --label "Green Apple"
+```
+You can also use chkpnt_moved.pth to simulate different effects by moving apple's position in webui.py
+
+```
+python webui.py  -s data/figurines/ -m data/figurines/output --include_feature --ckpt_name chkpnt_moved.pth
+```

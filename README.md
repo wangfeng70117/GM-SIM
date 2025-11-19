@@ -80,6 +80,9 @@ The rendering depth map is then copied to the dataset folder, The directory stru
 │   │   └── stereo
 ...
 ```
+
+We provide dataset of figurines scene. You can download from https://huggingface.co/datasets/wfysu/GM-SIM
+
 ### Training
 - **Step 1: Generate CLIP Feature of the Scenes.**
 We use [open-clip](https://github.com/mlfoundations/open_clip) to generate the clip features. Make sure you include the `images` and the `Annotations` folder under `data/DATASET_NAME` to ensure that the same object in different perspectives has consistent CLIP features. And you can download the checkpoints of SAM from [here](https://github.com/facebookresearch/segment-anything#model-checkpoints).

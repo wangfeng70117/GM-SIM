@@ -1,4 +1,5 @@
 # GM-SIM
+DEMO: https://www.bilibili.com/video/BV157CKB7EBP/
 ## Processing your own Scenes
 ### Data preparation
  If you want to prepare masks on your own dataset, you will also need to prepare [DEVA](https://github.com/hkchengrex/Tracking-Anything-with-DEVA) environment.
